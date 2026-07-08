@@ -2,14 +2,17 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A responsive personal portfolio built with React.js and Tailwind CSS.",
+    image: "/images/portfolio.png",
   },
   {
     title: "Dengue Prediction System",
     description: "A machine learning-based web application for dengue disease prediction.",
+    
   },
   {
     title: "E-Commerce Website",
     description: "A React-based online shopping platform with modern UI.",
+    image: "/images/pasaley.png",
   },
 ];
 
@@ -26,6 +29,11 @@ function Projects() {
             key={project.title}
             className="bg-slate-800 rounded-xl p-8 hover:scale-105 duration-300 shadow-lg"
           >
+             <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-52 object-cover"
+  />
             <h3 className="text-2xl font-bold text-white mb-4">
               {project.title}
             </h3>

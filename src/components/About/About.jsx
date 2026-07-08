@@ -18,7 +18,7 @@ function About() {
           <div className="flex justify-center">
   <div className="w-full max-w-md h-[550px] rounded-3xl overflow-hidden border-4 border-cyan-400 shadow-2xl">
     <img
-      src="/images/profile-pic.png"
+      src="/images/myprofile.png"
       alt="Profile"
       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
     />
